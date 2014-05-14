@@ -2,6 +2,11 @@ from fpdf import FPDF
 import locale
 
 class smx_pdf(FPDF):
+	"""
+		Crea el PDF fisico para que despues sea enviado por mail
+		Orlando Hdz
+		09-May-2014
+	"""        
         def __init__(self):
                 super(smx_pdf,self).__init__()
                 self.factura = ""
