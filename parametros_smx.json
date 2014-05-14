@@ -1,0 +1,16 @@
+{
+	"Nombre":"Factura Comercial",
+	"parametros":{
+		"clientes" : "1001401,1001501,1003001",
+		"dsn" : "D_ASN_CUSTOMER",
+		"user" : "asncust",
+		"password" : "asncust00",
+		"database" : "D_ASN_CUSTOMER",
+		"path_pdfs" : "/home/administrator/app/SmxAsn/PDFS",
+		"smtp_host" : "172.16.100.130",
+		"smtp_usuario" : "SISAMEX\\orlando.hernandez",
+		"smtp_password" : "Alfa.Centauri.1972",
+		"smtp_sender" : "abastecimientos@sisamex.com.mx",
+		"address_book" : ["alejandra.molina@paccar.com","lucy.ceja@sisamex.com.mx","orlando.hernandez@sisamex.com.mx"]
+	}
+}
