@@ -249,7 +249,7 @@ class invoices(object):
 if __name__ == "__main__":
 
 	#Carga los parametros
-	with open('/home/administrator/app/SmxAsn//parametros_smx.json') as data_file:
+	with open('parametros_smx.json') as data_file:
 		data = json.load(data_file)
 
 	#Instanciando factura
